@@ -40,7 +40,7 @@ async function crawlGitHubTrending() {
         console.log(markdownContent);
 
         // 调用推送
-        sendNotify(markdownContent);
+        sendNotify('Github Trending',markdownContent);
 
         return trendingItems;
     } catch (error) {
