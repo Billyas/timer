@@ -1,3 +1,7 @@
+/**
+ * name: Github热榜
+ * cron: 16 5 * * *
+ */
 const axios = require('axios');
 const cheerio = require('cheerio');
 const { sendNotify } = require('./utils/notify');
