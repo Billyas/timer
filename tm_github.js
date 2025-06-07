@@ -30,7 +30,7 @@ async function crawlGitHubTrending() {
         });
 
         // 生成Markdown内容
-        let markdownContent = '# GitHub趋势前三条信息\n\n';
+        let markdownContent = '\n\n';
         trendingItems.forEach((item, index) => {
             markdownContent += `## ${index + 1}. [${item.title}](${item.link})\n`;
             markdownContent += `${item.description}\n`;
