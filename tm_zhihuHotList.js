@@ -5,7 +5,7 @@
  * cron: 11 6 * * *
  */
 const got = require('got');
-const { sendNotify } = require('./notify');
+const { sendNotify } = require('./utils/notify');
 
 // 爬取知乎热榜并推送
 async function crawlZhihuHotList() {
