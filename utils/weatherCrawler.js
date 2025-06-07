@@ -1,5 +1,5 @@
 const got = require('got');  
-const { sendNotify } = require('./utils/notify'); 
+const { sendNotify } = require('./notify'); 
 
 // 定义爬取并推送天气信息的函数
 async function crawlAndPushWeather() {

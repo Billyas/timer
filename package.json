@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node tm_main.js",
+    "zh": "node tm_zhihuHotList.js"
   },
   "keywords": [],
   "author": "",
