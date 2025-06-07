@@ -7,7 +7,7 @@
  */
 
 const { sendNotify } = require('./utils/notify');
-const {crawlAndPushWeather} = require('./weatherCrawler');
+const {crawlAndPushWeather} = require('./utils/weatherCrawler');
 
 //穿衣指数
 crawlAndPushWeather();
