@@ -5,12 +5,14 @@
   "main": "main.js",
   "scripts": {
     "start": "node tm_main.js",
-    "zh": "node tm_zhihuHotList.js"
+    "zh": "node tm_zhihuHotList.js",
+    "gh": "node tm_github.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.9.0",
     "cheerio": "^1.0.0",
     "got": "^11.8.6"
   }
