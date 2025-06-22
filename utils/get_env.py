@@ -8,7 +8,7 @@ import re
 
 from dotenv import load_dotenv, find_dotenv
 
-from fn_print import fn_print
+from .fn_print import fn_print
 
 
 def get_env(env_var, separator):
