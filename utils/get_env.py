@@ -9,7 +9,9 @@ import re
 from dotenv import load_dotenv, find_dotenv
 
 
+from typing import *
 
+all_print_list = []
 
 def get_env(env_var, separator):
     if env_var in os.environ:
