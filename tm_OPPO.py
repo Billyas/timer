@@ -4,7 +4,7 @@
 # @author           Echo
 # @EditTime         2025/4/24
 # const $ = new Env('OPPO商城');
-# cron: 0 0 12 * * *
+# cron:  5 9 * * *
 """
 OPPO商城app版：
     开启抓包进入‘OPPO商城’app，进入我的 - 签到任务
